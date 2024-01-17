@@ -30,7 +30,7 @@ const Header = () => {
       } sticky top-0 z-30 transition-all ${pathname === '/' && 'bg-[#fef9f5]'}`}
     >
       <div className='container mx-auto'>
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center dark:invert'>
           <Logo />
           <div className='flex items-center gap-x-6'>
             {/* nav */}
